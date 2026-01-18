@@ -1,7 +1,7 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
 
-/* css variables */
+/* CSS Variables */
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
@@ -9,6 +9,9 @@
     --secondary-color: #aa9581; /* light brown */
     --highlight-color: #416a8e; /* blue */
     --highlight-color-light: #7a9fc2; /* light blue */
+}
+
+/* Global styles */
 
 body {
     font-family: var(--primary-font);
@@ -23,6 +26,16 @@ h3 {
 
 .sub-heading-color {
     color: var(--highlight-color);
+}
+
+/* Navbar */
+
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px;
 }
 
 /* grid visualisation CSS for testing */
